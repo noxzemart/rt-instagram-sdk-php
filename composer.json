@@ -26,12 +26,13 @@
       "Instagram\\": "src"
     }
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": ">=5.5",
     "ext-curl": "*",
     "php-curl-class/php-curl-class": "^7.3",
     "netresearch/jsonmapper": "^1.0",
     "ramsey/uuid": "^4.0"
-  },
-  "minimum-stability": "stable"
+  }
 }
