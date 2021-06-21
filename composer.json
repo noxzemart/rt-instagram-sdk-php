@@ -1,0 +1,37 @@
+{
+  "name": "noxzemart/rt-instagram-sdk-php",
+  "type": "library",
+  "description": "This is an unofficial SDK for the Instagram Private API in PHP",
+  "license": "MIT",
+  "keywords": [
+    "Instagram",
+    "Private",
+    "API",
+    "PHP",
+    "SDK"
+  ],
+  "support": {
+    "issues": "https://github.com/noxzemart/rt-instagram-sdk-php/issues",
+    "wiki": "https://github.com/noxzemart/rt-instagram-sdk-php/wiki",
+    "source": "https://github.com/noxzemart/rt-instagram-sdk-php"
+  },
+  "authors": [
+    {
+      "name": "Noxzema RT",
+      "email": "noxzemart@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Instagram\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "ext-curl": "*",
+    "php-curl-class/php-curl-class": "^7.3",
+    "netresearch/jsonmapper": "^1.0",
+    "ramsey/uuid": "^4.0"
+  },
+  "minimum-stability": "stable"
+}
